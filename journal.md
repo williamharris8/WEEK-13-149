@@ -1,0 +1,3 @@
+PHASE 0 - I am new to React and don't yet fully understand how it works. However my plan would be to first have RAW_GAMES be the master list. Then display title and genre, use favorite for a filter, and id to label each uniquely. Moving to visual maybe add a button to switch between games and then add styling.
+
+PHASE 1 - Abstraction hides internal mechanics or complex code behind a simple interface. Instead of controlling each step .filter() and .map() hide this in the method. It's shorter this way and less room for mistakes.
