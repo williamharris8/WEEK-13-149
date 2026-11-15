@@ -1,11 +1,8 @@
 import GameItem from './GameItem.jsx';
+import { getFavoriteGames, RAW_GAMES } from './logic.js';
 
 function App() {
-  const games = [
-    { id: 1, title: "Minecraft", genre: "Sandbox", favorite: true },
-    { id: 2, title: "Tetris", genre: "Puzzle", favorite: false },
-    { id: 3, title: "Portal 2", genre: "Puzzle", favorite: true }
-  ];
+  const games = getFavoriteGames(RAW_GAMES);
 
   return (
     <div>

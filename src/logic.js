@@ -1,4 +1,4 @@
-const RAW_GAMES = [
+export const RAW_GAMES = [
   { id: 1, title: "The Legend of Zelda", genre: "Adventure", favorite: true },
   { id: 2, title: "Elden Ring", genre: "RPG", favorite: true },
   { id: 3, title: "Stardew Valley", genre: "Simulation", favorite: false },
@@ -6,16 +6,13 @@ const RAW_GAMES = [
   { id: 5, title: "Hades", genre: "Roguelike", favorite: true }
 ];
 
-function getFavoriteGames(games) {
+export function getFavoriteGames(games) {
   return games.filter(game => game.favorite);
 }
 
-function getGameTitles(games) {
+export function getGameTitles(games) {
   return games.map(game => game.title);
 }
-
-console.log(getFavoriteGames(RAW_GAMES));
-console.log(getGameTitles(RAW_GAMES));
 
 
 
