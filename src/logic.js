@@ -3,7 +3,8 @@ export const RAW_GAMES = [
   { id: 2, title: "Elden Ring", genre: "RPG", favorite: true },
   { id: 3, title: "Stardew Valley", genre: "Simulation", favorite: false },
   { id: 4, title: "Cyberpunk 2077", genre: "RPG", favorite: false },
-  { id: 5, title: "Hades", genre: "Roguelike", favorite: true }
+  { id: 5, title: "Hades", genre: "Roguelike", favorite: true },
+  { id: 6, title: "Minecraft", genre: "Sandbox", favorite: false }
 ];
 
 export function getFavoriteGames(games) {

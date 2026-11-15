@@ -7,3 +7,5 @@ PHASE 2 - Running the create command was pretty easy. The server only runs while
 PHASE 3 - HTML will show content you type but JSX is inside JavaScript so it can use data like {game.title}. Props can work like arguments in a function passing a game into GameItem component letting me write it once and reuse to show every game.
 
 PHASE 4 - logic.js still had the Phase 1 code without export so App.jsx could not use RAW_GAMES or getFavoriteGames. Vite showed a failure to resolve import because GameItem.jsx wasnt where App.jsx expected.
+
+PHASE 5 - Forgetting a comma after the Hades line Vite will show an error.
